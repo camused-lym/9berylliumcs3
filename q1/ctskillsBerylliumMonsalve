@@ -1,1 +1,52 @@
-.
+# Computational Thinking Exercise
+## [Smart School Canteen Queue]
+**Name:** Lance Yuichi C. Monsalve
+**Section:** Beryllium
+**Last Name:** Monsalve
+**Date:**9/1/26
+
+## Step 1: Identify the Big Problem
+### Main Problem
+The main problem is that there is no way to track the amount of food items that are going out of stock, as well as the transactions from the employees being inefficent in terms of speed.
+---
+## Step 2: Identify the Sub-Problems
+1. The system has difficulty handling transactions efficiently because several
+parts of the process are performed inefficently.
+2. There is no clear menu for the students to order with.
+3. No more use of technology to incorporate switching of tasks from cashier to screen.
+---
+## Step 3: Apply Computational Thinking Skills
+| Sub-Problem | CT Skill | Proposed Solution |
+|---|---|---|
+| The system has difficulty handling transactions efficiently because several
+parts of the process are performed inefficently. | Abstraction | Simplify the choices displayed to the user. |
+| There is no clear menu for the students to order with. | Decomposition | Create a menu hovered above the cashier for optimal time consumption |
+| No more use of technology to incorporate switching of tasks from cashier to screen. | Algorithm design| Create a sequence of steps that automatically calculates the required amount. |
+---
+## Step 4: Algorithmic Solution
+### Selected Sub-Problem: 1. The system has difficulty handling transactions efficiently because several
+parts of the process are performed inefficently.
+### Pseudocode
+START
+
+Greet customer
+Ask for order
+Record order
+
+Ask if they want anything else
+IF yes
+    Add to order
+END IF
+
+Confirm order
+Calculate total
+Tell customer total
+
+Ask for payment
+Process payment
+Give change if needed
+
+Give receipt
+Thank customer
+
+END
