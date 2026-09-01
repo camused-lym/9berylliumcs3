@@ -13,7 +13,7 @@
 |Replay|Replays the current song.|
 |Next|Plays the next song in queue.|
 ## Class Diagram
-![Class Diagram](images/classDiagram.png)
+![Class Diagram](q1/class.png)
 ## Design Explanation
 ### Why did you choose this class? This class is one of my usual past times, which is why I have picked this class, no to mention its easy.
 ### Which property is the most important? Why? Artist, because it shows who made it and where the user may find content from this artist.
