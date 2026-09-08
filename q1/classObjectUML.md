@@ -3,15 +3,15 @@
 ## Class Description: Illustrates how music players usually operate.
 ## Properties
 | Property | Data Type | Description |
-|Artist|Str|The person who produced and who wrote the song.|
-|View|Int|Amount of plays a song has.|
-|Length|Int|Duration of the song.|
-|Platforms|Str|Platforms currently the song is on.|
+| Artist | Str | The person who produced and who wrote the song. |
+| View | Int|Amount of plays a song has. |
+| Length | Int | Duration of the song. |
+| Platforms | Str| Platforms currently the song is on. |
 ## Methods
 | Method | Description |
-|Play|Plays the current song.|
-|Replay|Replays the current song.|
-|Next|Plays the next song in queue.|
+| Play | Plays the current song. |
+| Replay | Replays the current song. |
+| Next | Plays the next song in queue. |
 ## Class Diagram
 ![Class Diagram](q1/class.png)
 ## Design Explanation
