@@ -4,7 +4,7 @@
 ## Properties
 | Property | Data Type | Description |
 | Artist | Str | The person who produced and who wrote the song. |
-| View | Int|Amount of plays a song has. |
+| View | Int |Amount of plays a song has. |
 | Length | Int | Duration of the song. |
 | Platforms | Str| Platforms currently the song is on. |
 ## Methods
