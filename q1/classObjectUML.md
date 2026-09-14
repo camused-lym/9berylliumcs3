@@ -9,8 +9,8 @@
 | Length| Int| Duration of the song.|
 | Platforms| Str| Platforms currently the song is on.|
 ## Methods
-|---|---|
 | Method| Description|
+|---|---|
 | Play| Plays the current song|
 | Replay| Replays the current song.|
 | Next| Plays the next song in queue.|
