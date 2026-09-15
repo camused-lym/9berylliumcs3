@@ -4,16 +4,15 @@
 [Part I - Classes and Objects](classObjectUML.md)
 [Part II - Class Attributes and Methods](classAttributesMethods.md)
 ## Existing Class
-Class:
-Description:
+Class: Music Player
+Description: Class where it plays an audio file with supporting variables. 
 ## New Related Class
-Class:
-Description:
+Class: Music Website
+Description: Website where it displays a list of songs with different functions.
 ## Association
-Relationship:
+Relationship: Website HAS A Music Player
 Explanation:
 ## Multiplicity
-
 Multiplicity:
 Explanation:
 ## UML Class Relationship Diagram
