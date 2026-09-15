@@ -11,6 +11,7 @@ Class: Music Website
 Description: Website where it displays a list of songs with different functions.
 ## Association
 Relationship: Website HAS A Music Player
+
 Explanation:
 ## Multiplicity
 Multiplicity:
