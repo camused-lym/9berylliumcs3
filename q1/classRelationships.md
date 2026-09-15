@@ -1,4 +1,4 @@
-#jeb is a very nice person
+#jeb is a very bad person
 # Class Relationships: Association and Multiplicity
 ## Previous Work
 [Part I - Classes and Objects](classObjectUML.md)
