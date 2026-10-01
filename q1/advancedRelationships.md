@@ -14,11 +14,11 @@ Explanation: Song is a type of AudioTrack that shares core properties like artis
 Relationship: Composition
 Explanation: The song creates its own lyrics object internally, meaning the lyrics cannot exist independently if the song is removed.
 ## Advanced UML Diagram
-![Advanced UML](images/advancedClassDiagram.png)
+![Advanced UML](images/Daigram.jpeg)
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 ## Test Run
-![Test](images/advancedTestRun.png)
+![Test](images/Run.png)
 ## Object Diagram
 ![Objects](images/advancedObjectDiagram.png)
 
