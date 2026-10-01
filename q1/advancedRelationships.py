@@ -61,7 +61,7 @@ del playlist
 print("Playlist deleted, song still exists:", song1.artist)
 print()
  
-print("TEST 3: DEPENDENCY")
+print("TEST 3: DEPENDE")
 ana = Listener("Ana")
 ana.listen(song1)
 print("Views now:", song1.views)
