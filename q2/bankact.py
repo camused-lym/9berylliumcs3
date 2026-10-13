@@ -3,6 +3,10 @@ class bankaccount:
     self.account_number = account_number
     self.balance = balance
 
-@property
-def account_number(self):
-        return self.__account_number
+    @property
+    def account_number(self):
+      return self.__account_number
+
+    @account_number.setter
+    def account_number(self, value):
+        self.__account_number = value
