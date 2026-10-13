@@ -17,3 +17,7 @@
 [View my OOP III Activity](q1/classRelationships.md)
 ### OOPACT IV
 [View my OOP IV Activity](q1/advancedRelationships.md)
+# Quarter 2
+## Activities
+### SG 8 Encapsulation
+[View my Encapsulation Activity](q2/bankact.py)
