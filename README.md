@@ -21,3 +21,6 @@
 ## Activities
 ### SG 8 Encapsulation
 [View my Encapsulation Activity](q2/bankact.py)
+### SG 9 (WIP)
+### SG 10 Method Overriding
+[View my Overriding Activity](q2/MethodOverriding.py)
