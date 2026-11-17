@@ -1,0 +1,4 @@
+class Patient:
+    def __init__(self, name, bill_amount):
+        self.name = name
+        self.bill_amount = bill_amount
