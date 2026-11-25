@@ -2,46 +2,60 @@ class Publication:
     def __init__(self, title, author):
         self.title = title
         self.author = author
-    def get_title(self):
+    def GetTitle(self):
         return self.title
-    def get_author(self):
+    def GetAuthor(self):
         return self.author
-    def set_title(self, title):
-        self.title = title
-    def set_author(self, author):
-        self.author = author
-    def display_info(self):
+    def SetTitle(self, newtitle):
+        self.title = newtitle
+    def SetAuthor(self, newauthor):
+        self.author = newauthor
+    def DisplayInfo(self):
         print(f"Title: {self.title}")
         print(f"Author: {self.author}")
 
 
 class Book(Publication):
-    def __init__(self, title, author, number_pages):
+    def __init__(self, title, author, numberpages):
         super().__init__(title, author)
-        self.number_of_pages = number_pages
-    def get_number_of_pages(self):
-        return self.number_of_pages
-    def set_number_of_pages(self, number_pages):
-        if number_pages > 0:
-            self.number_of_pages = number_pages
+        self.numberpages = numberpages
+    def GetNumberOfPages(self):
+        return self.numberpages
+    def SetNumberOfPages(self, newpages):
+        if newpages > 0:
+            self.numberpages = newpages
         else:
             print("Number of pages must be positiv")
-    def display_info(self):
-        super().display_info()
-        print(f"Number of pages: {self.number_of_pages}")
+    def DisplayInfo(self):
+        super().DisplayInfo()
+        print(f"Number of pages: {self.numberpages}")
 
 
 class Magazine(Publication):
-    def __init__(self, title, author, issue_number):
+    def __init__(self, title, author, issuenumber):
         super().__init__(title, author)
-        self.issue_number = issue_number
-    def get_issue_number(self):
-        return self.issue_number
-    def set_issue_number(self, issue_number):
-        if issue_number > 0:
-            self.issue_number = issue_number
+        self.issuenumber = issuenumber
+    def GetIssueNumber(self):
+        return self.issuenumber
+    def SetIssueNumber(self, newissue):
+        if newissue > 0:
+            self.issuenumber = newissue
         else:
             print("Issue number must be positive")
-    def display_info(self):
-        super().display_info()
-        print(f"Issue number: {self.issue_number}")
+    def DisplayInfo(self):
+        super().DisplayInfo()
+        print(f"Issue number: {self.issuenumber}")
+
+
+public = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.")
+book = Book("The Hobbit", "J.R.R. Tolkien", 310)
+mag = Magazine("National Geographic", "Various Authors", 202)
+
+print("Publication Information:")
+public.DisplayInfo()
+
+print("\nBook Information:")
+book.DisplayInfo()
+
+print("\nMagazine Information:")
+mag.DisplayInfo()
